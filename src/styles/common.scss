@@ -1,0 +1,72 @@
+.widthFull {
+    width: 100%;
+}
+
+.heightFull {
+    height: 100%;
+}
+
+.borderBottomThin {
+    border-bottom: 2px solid $border-color-panel-default;
+}
+
+/**
+ * Angular2 Material Design Overrides
+ * TODO: move to a separate scss file to be included in .angular-cli:app[0]:styles
+ * DO NOT change without consulting with Victoria Dassen
+ *
+ */
+
+/* Draggable */
+.drag-border {
+    border: #ff525b dashed $margin-pixel * 2 !important;
+    margin: 0 !important;
+}
+
+.drop-border {
+    border-color: $border-color-panel-active !important;
+}
+
+.cursor_custom_move {
+    cursor: (url('#{$image-path}/cursorImage/move.svgz'), move);
+}
+.cursor_custom_pointer {
+    cursor: (url('#{$image-path}/cursorImage/pointer.svgz'), pointer);
+}
+.cursor_custom_default {
+    cursor: (url('#{$image-path}/cursorImage/default.svgz'), default);
+}
+.cursor_custom_crosshair {
+    cursor: (url('#{$image-path}/cursorImage/cross-hair.svgz'), crosshair);
+}
+.cursor_custom_n-resize {
+    cursor: (url('#{$image-path}/cursorImage/N-resize.svgz'), n-resize);
+}
+.cursor_custom_sw-resize {
+    cursor: (url('#{$image-path}/cursorImage/SW-resize.svgz'), sw-resize);
+}
+.cursor_custom_none {
+    cursor: none;
+}
+.cursor_move {
+    cursor: move;
+}
+.cursor_pointer {
+    cursor: pointer;
+}
+.cursor_default {
+    cursor: default;
+}
+.cursor_crosshair {
+    cursor: crosshair;
+}
+.cursor_n-resize {
+    cursor: n-resize;
+}
+.cursor_sw-resize {
+    cursor: sw-resize;
+}
+.cursor_none {
+    cursor: none;
+}
+
